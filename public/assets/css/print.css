@@ -1,0 +1,42 @@
+*,html, body{
+	font-family: Verdana;
+	color: #444;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px dashed #aaa;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0;
+}
+
+.well {
+	font-size: 12px;
+	border-bottom: 1px dashed #aaa;
+	display: block;
+	padding: 5px;
+}
+
+.well p {
+	line-height: 21px;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+
+}
+table tr:first-child >th {
+	border-bottom: 1px dashed #aaa;
+}
+table th, table td {
+	padding: 5px;
+}
+table td {
+	border-bottom:1px dashed #aaa;
+	padding: 5px;
+}
