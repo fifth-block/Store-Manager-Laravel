@@ -1,0 +1,1 @@
+web: vendor/bin/store-manager-laravel public
